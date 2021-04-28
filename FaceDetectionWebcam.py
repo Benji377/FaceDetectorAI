@@ -2,23 +2,8 @@
 # faces inside it are getting detected
 # for example video from webcam
 
-# Video: https://youtu.be/XIrOM9oP3pA?list=PLIdk2M44Rqh-5x22oSpJMoNTNQMbLaZws
-# Timestamp: https://youtu.be/XIrOM9oP3pA?t=5711
+# cv2 is a simple AI engine
 import cv2
-import sys
-import os
-
-
-def resource_path(relative_path):
-    """ Get absolute path to resource, works for dev and for PyInstaller """
-    try:
-        # PyInstaller creates a temp folder and stores path in _MEIPASS
-        base_path = sys._MEIPASS
-    except Exception:
-        base_path = os.path.abspath(".")
-
-    return os.path.join(base_path, relative_path)
-
 
 # Pretrained data: https://github.com/opencv/opencv/tree/master/data/haarcascades
 trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
