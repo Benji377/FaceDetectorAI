@@ -1,5 +1,4 @@
-# Video: https://youtu.be/XIrOM9oP3pA?list=PLIdk2M44Rqh-5x22oSpJMoNTNQMbLaZws
-# Timestamp: https://youtu.be/XIrOM9oP3pA?t=5711
+# cv2 is a simple AI engine
 import cv2
 
 # Pretrained data: https://github.com/opencv/opencv/tree/master/data/haarcascades
